@@ -51,20 +51,27 @@ export default App
 */}
 
 
-import React from 'react'
+import React, { useState } from 'react';
+
 
 const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log('Form Submitted')
-    console.log(e.target[0].value)
+    console.log(Username)
+    setUsername('')
+    
   }
+
+  const [Username, setUsername] = useState('')
 
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input className='namebox' type="text" placeholder='Enter your Name'/>
+        <input value={Username} onChange={(e)=>{
+          setUsername(e.target.value)
+        }} className='namebox' type="text" placeholder='Enter your Name'/>
         <button className='btn'>Submit</button>
       </form>
       
