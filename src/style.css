@@ -53,3 +53,13 @@ form {
     background-color: #9a67ea;
 }
 */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8c3fd4;
+    padding: 10px 20px;
+    box-shadow: 0 4px 15px rgba(127, 32, 236, 0.8);
+}

@@ -93,7 +93,7 @@ import React from 'react'
 const App = () => {
   return (
     <>
-    <nav className='flex items-center justify-between p-5 bg-gray-800 text-white'>
+    <nav className='navbar'>
       <h2>React-Learning</h2>
       <div>
         <h4>About</h4>
