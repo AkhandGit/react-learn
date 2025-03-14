@@ -88,23 +88,20 @@ export default App
 
 */}
 
+
 import React from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <>
-    <nav className='navbar'>
-      <h2>React-Learning</h2>
-      <div>
-        <h4>About</h4>
-        <h4>Contact</h4>
-        <h4>Services</h4>
-        <h4>Your Account</h4>
-      </div>
-    </nav>
-
+      <Navbar />
+      <Footer />
+      
     </>
   )
 }
 
 export default App
+
