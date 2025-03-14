@@ -3,7 +3,10 @@ import React from 'react'
 const Card = (props) => {
   return (
     <div>
-      User is {props.a}
+      <div>
+        <h1>{props.user}{props.surname}</h1>
+        <h2>{props.city}{props.age}</h2>
+      </div>
     </div>
   )
 }

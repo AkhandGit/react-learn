@@ -117,7 +117,7 @@ import Card from './components/Card'
 const App = () => {
   return (
     <div>
-      <Card a='DedSec' />
+      <Card user='DedSec' surname='Watchdog' city='Prayagraj' age={22} />
     </div>
   )
 }
