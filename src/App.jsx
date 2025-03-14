@@ -88,6 +88,10 @@ export default App
 
 */}
 
+{/*This is a component example*/}
+
+{/*
+
 
 import React from 'react'
 import Navbar from './components/Navbar'
@@ -98,10 +102,24 @@ const App = () => {
     <>
       <Navbar />
       <Footer />
-      
+
     </>
   )
 }
 
 export default App
 
+*/}
+
+import React from 'react'
+import Card from './components/Card'
+
+const App = () => {
+  return (
+    <div>
+      <Card a='DedSec' />
+    </div>
+  )
+}
+
+export default App
