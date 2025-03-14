@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
+/*
 body {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #121212; /* Dark background */
+    background-color: #121212;
     margin: 0;
-    color: #fff; /* Light text for contrast */
+    color: #fff;
     font-family: Arial, sans-serif;
 }
 
@@ -15,17 +16,17 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #1e1e1e; /* Dark card-style form */
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Stronger shadow for depth */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     width: 300px;
 }
 
 .namebox {
     padding: 10px;
     background-color: #292929;
-    border: 2px solid #bb86fc; /* Purple border for contrast */
+    border: 2px solid #bb86fc;
     border-radius: 8px;
     outline: none;
     color: #fff;
@@ -39,7 +40,7 @@ form {
 
 .btn {
     padding: 10px;
-    background-color: #bb86fc; 
+    background-color: #bb86fc;
     color: #121212;
     border: none;
     border-radius: 8px;
@@ -51,3 +52,4 @@ form {
 .btn:hover {
     background-color: #9a67ea;
 }
+*/
