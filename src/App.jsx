@@ -31,7 +31,7 @@ export default App
 */}
 
 
-{/* This is a useEffect example*/}
+{/* This is a normal example*/}
 {/*
 
 
@@ -50,6 +50,10 @@ export default App
 
 */}
 
+
+{/*This is Two Way Binding example*/}
+
+{/*
 
 import React, { useState } from 'react';
 
@@ -76,6 +80,21 @@ const App = () => {
       </form>
       
     </div>
+  )
+}
+
+export default App
+
+
+*/}
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <>
+    
+    </>
   )
 }
 
