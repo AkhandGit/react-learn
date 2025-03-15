@@ -130,6 +130,11 @@ export default App
 
 */}
 
+
+{/*This is a props card example with array*/}
+
+{/*
+
 import React from 'react'
 import Card from './components/Card'
 
@@ -181,6 +186,21 @@ const App = () => {
           return <Card key={idx} user={elem.name} city={elem.city} age={elem.age} profession={elem.profession} photo={elem.photo}/>
         })}
       </div>
+      
+    </div>
+  )
+}
+
+export default App
+
+
+*/}
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
       
     </div>
   )
