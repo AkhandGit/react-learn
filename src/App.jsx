@@ -111,6 +111,10 @@ export default App
 
 */}
 
+{/*This is a props card example*/}
+
+{/*
+
 import React from 'react'
 import Card from './components/Card'
 
@@ -118,6 +122,66 @@ const App = () => {
   return (
     <div>
       <Card user='DedSec' surname='Watchdog' city='Prayagraj' age={22} />
+    </div>
+  )
+}
+
+export default App
+
+*/}
+
+import React from 'react'
+import Card from './components/Card'
+
+const users=[
+  {
+    "name": "Akash Verma",
+    "city": "Delhi",
+    "age": 28,
+    "profession": "Software Engineer",
+    "profile_picture": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "name": "Priya Sharma",
+    "city": "Mumbai",
+    "age": 24,
+    "profession": "Graphic Designer",
+    "profile_picture": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "name": "Rahul Gupta",
+    "city": "Bangalore",
+    "age": 30,
+    "profession": "Data Analyst",
+    "profile_picture": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "name": "Neha Singh",
+    "city": "Kolkata",
+    "age": 26,
+    "profession": "Content Writer",
+    "profile_picture": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "name": "Vikram Mehta",
+    "city": "Chennai",
+    "age": 32,
+    "profession": "Product Manager",
+    "profile_picture": "https://randomuser.me/api/portraits/men/5.jpg"
+  }
+]
+
+
+
+const App = () => {
+  return (
+    <div>
+      <div className='p-10'>
+        {users.map(function(elem,idx){
+          return <Card key={idx} user={elem.name} city={elem.city} age={elem.age} profession={elem.profession} photo={elem.photo}/>
+        })}
+      </div>
+      
     </div>
   )
 }
