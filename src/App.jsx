@@ -213,8 +213,10 @@ const App = () => {
     <div className='p-10'>
       <button onClick={getData} className='bg-teal-700 text-white font-semibold text-2xl px-6 py-3 rounded active:scale-90'>Help</button>
       <div className='p-5 bg-gray-950 text-white'>
-        {data.map(function(){
-          return <h1>Hello</h1>
+        {data.map(function(elem,idx){
+          return <div key={idx} className='bg-gray-50 text-black flex items-center justify-between w-full px-7 py-6 rounded mb-3'>
+            <img src={elem.download_url} alt="" />
+          </div>
         })}
       </div>
     </div>
