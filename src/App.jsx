@@ -201,7 +201,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      
+      <button className='bg-teal-700 text-white font-semibold text-2xl px-6 py-3'></button>
     </div>
   )
 }
