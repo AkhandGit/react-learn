@@ -196,12 +196,27 @@ export default App
 
 */}
 
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios'
 
 const App = () => {
+
+  const [data, setData] = useState([])
+
+  const getData = async () => {
+    console.log('Data Fetched')
+    const response =await axios.get('https://picsum.photos/v2/list')
+    setData(response.data)
+  }
+
   return (
-    <div>
-      <button className='bg-teal-700 text-white font-semibold text-2xl px-6 py-3 rounded'></button>
+    <div className='p-10'>
+      <button onClick={getData} className='bg-teal-700 text-white font-semibold text-2xl px-6 py-3 rounded active:scale-90'>Help</button>
+      <div className='p-5 bg-gray-950 text-white'>
+        {data.map(function(){
+          return <h1>Hello</h1>
+        })}
+      </div>
     </div>
   )
 }
