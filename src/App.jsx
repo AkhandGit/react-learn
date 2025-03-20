@@ -196,6 +196,10 @@ export default App
 
 */}
 
+{/*This is importing data using API (Axios)  example*/}
+
+{/*
+
 import React, { useState } from 'react'
 import axios from 'axios'
 
@@ -224,3 +228,22 @@ const App = () => {
 }
 
 export default App
+
+
+*/}
+
+{/* React Router DOM */}
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default App
+
+
