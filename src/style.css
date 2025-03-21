@@ -122,3 +122,41 @@ h1{
     transform: translate(-50%, -50%);
     color: #fff;
 }
+
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8c3fd4;
+    padding: 10px 20px;
+    box-shadow: 0 4px 15px rgba(127, 32, 236, 0.8);
+}
+
+.Navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto; /* This will push the nav-links to the right */
+}
+
+.Navbar .nav-links a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Navbar .nav-links a:hover {
+    background-color: #fff;
+    color: #8c3fd4;
+    border-radius: 5px;
+}
+
+.nav-main {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto; /* This will push the nav-main to the left */
+}
