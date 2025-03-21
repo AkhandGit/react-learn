@@ -108,12 +108,12 @@ form {
 }
 
 */
+
 body {
     background-color: rgb(68, 64, 64);
 }
 
-
-h1{
+h1 {
     position: absolute;
     font-size: 70px;
     font-weight: 600;
@@ -123,7 +123,6 @@ h1{
     color: #fff;
 }
 
-
 .Navbar {
     display: flex;
     justify-content: space-between;
@@ -131,6 +130,12 @@ h1{
     background-color: #8c3fd4;
     padding: 10px 20px;
     box-shadow: 0 4px 15px rgba(127, 32, 236, 0.8);
+}
+
+.Navbar .nav-main {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .Navbar .nav-links {
@@ -152,11 +157,4 @@ h1{
     background-color: #fff;
     color: #8c3fd4;
     border-radius: 5px;
-}
-
-.nav-main {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: auto; /* This will push the nav-main to the left */
 }
