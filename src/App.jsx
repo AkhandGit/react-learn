@@ -242,7 +242,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path='/about' element={About} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </div>
   )
