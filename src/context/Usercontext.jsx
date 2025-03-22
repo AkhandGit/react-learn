@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Usercontext = () => {
+const Usercontext = ({children}) => {
     const username = 'DedSec';
   return (
     
     <div>
-        <h1>Welcome {username}</h1>
+        <h1>Welcome {children}</h1>
     </div>
   )
 }

@@ -234,6 +234,8 @@ export default App
 
 {/* React Router DOM */}
 
+{/*
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from './pages/About'
@@ -252,6 +254,22 @@ const App = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/product' element={<Product />} />
       </Routes>
+    </div>
+  )
+}
+
+export default App
+
+*/}
+
+{/* Working with context api */}
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      <h1>This is app</h1>
     </div>
   )
 }
